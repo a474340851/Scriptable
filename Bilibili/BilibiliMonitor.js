@@ -8,7 +8,7 @@
  */
 const goupdate = true;
 const $ = importModule("Env");
-var rid = 0; //rid对应不同的B站榜单：0全站，1动画，3音乐，4游戏，5娱乐，36科技，119鬼畜，129舞蹈。
+var rid = 129; //rid对应不同的B站榜单：0全站，1动画，3音乐，4游戏，5娱乐，36科技，119鬼畜，129舞蹈。
 var num = 6; //自定义显示数量
 var rancolor = true; //true为开启随机颜色
 
@@ -43,7 +43,7 @@ function createWidget(res) {
   bgColor.locations = [0.0, 1.0];
   w.backgroundGradient = bgColor;
   w.addSpacer();
-  w.spacing = 5;
+  w.spacing = 4;
 
   const firstLine = w.addText(`💗B站榜单`);
   firstLine.textSize = 15;

@@ -19,7 +19,7 @@ const scripts = [
   {
     moduleName: "BilibiliMonitor",
     url:
-      "https://raw.githubusercontent.com/evilbutcher/Scriptables/master/BilibiliMonitor.js",
+      "https://github.com/a474340851/Scriptable/blob/master/Bilibili/BilibiliMonitor.js",
   },
   {
     moduleName: "RRShareMonitor",

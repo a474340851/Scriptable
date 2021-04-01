@@ -14,7 +14,7 @@ const defaultHeaders = {
   "Content-Type": "application/json"
 }
 const textFormat = {
-    defaultText: { size: 14, color: "ffffff", font: "regular" },
+    defaultText: { size: 13, color: "ffffff", font: "regular" },
     battery: { size: 10, color: "", font: "bold" },
     title: { size: 16, color: "", font: "semibold" },
     SFMono: { size: 12, color: "ffffff", font: "SF Mono" }

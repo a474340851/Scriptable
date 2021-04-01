@@ -42,7 +42,7 @@ function createWidget(res) {
     bgColor.locations = [0.0, 1.0];
     w.backgroundGradient = bgColor;
     w.addSpacer();
-    w.spacing = 5;
+    w.spacing = 4;
 
     const firstLine = w.addText(`🔥微博热搜`);
     firstLine.textSize = 15;
